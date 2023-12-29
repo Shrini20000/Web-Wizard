@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shri Nidhi</title>
+    <link rel="stylesheet" href="../Res/base64s.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../main.js"></script>
+    <style>
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 5.5%;
+            padding-left: 5%; padding-right: 5%;
+        }
+        .dark {
+            background-color: var(--dark-blue);
+        }
+        .backImage {
+            background: url("../Res/Wallpaper2.jpeg");
+        }
+
+        .photo {
+            width: 470px;
+            height: 500px;
+            padding-top: 30px;
+            object-fit: cover;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .photo-mask {
+            mask: var(--photo-mask);
+            mask-repeat: no-repeat;
+            mask-size: contain;
+        }
+        .text-container {
+            margin-left: 7%;
+            margin-right: 5%;
+            max-width: 800px;
+            align-self: flex-start;
+        }
+        .row-container {
+            display: flex;
+            align-items: center; 
+            flex-wrap: nowrap; 
+            justify-content: space-between;
+        }
+        .small-buttons {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.25s ease-in-out;
+        }
+        
+        .small-buttons:hover {
+            transform: scale(1.75);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main-page">
+        <div class="profile-container backImage">
+            <span class="photo-container">
+                <div class="photo-mask">
+                    <img src="../Res/Shri.png" class="photo" />
+                </div>
+            </span>
+            <div class="text-container">
+                <div class="row-container">
+                    <h2 class="title-text">Shri Nidhi</h2>
+                    <h2 class="subtitle-text">1AY21CS177</h2>
+                </div>
+                <p class="content-text">
+                    Shri nidhi a Professional Developer | JavaScript | React | React Native Experienced and skilled professional in web and mobile development with expertise in JavaScript, CSS, HTML, React, and React Native. Proven track record of delivering high-quality projects. Passionate about creating seamless user experiences and staying current with emerging technologies. Committed to driving innovation and achieving excellence in every endeavor.</br></br>
+                    developer with a unique talent for crafting engaging and interactive User interface ,dedicated to bringing narratives to life through cutting-edge technology. Committed to delivering immersive digital experiences that captivate and resonate.</br></br>
+                </h2>
+                <div class="row-container" style="justify-content: flex-start; margin-top: 20px;">
+                    <p class="subtitle-text">Connect with me in: </p>
+                    <a href="https://www.x.com/">
+                        <img src="../Res/linkedin.svg" class="small-buttons" style="margin-left: 20px;"/>
+                    </a>
+                </div>
+                <div class="row-container" style="justify-content: flex-start;">
+                    <p class="subtitle-text">Look at my projects in: </p>
+                    <a href="https://github.com/Shrini20000/">
+                        <img src="../Res/github.svg" class="small-buttons" style="margin-left: 20px;"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
